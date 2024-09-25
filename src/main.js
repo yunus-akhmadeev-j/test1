@@ -10,7 +10,7 @@ import TaskBasket from "./view/task-basket.js";
 const bodyContainer = document.querySelector("body");
 const formContainer = document.querySelector(".newtask-add-button");
 const taskcolumnContainer = document.querySelector(".tasks");
-const basketContainer = document.querySelector(".task-basket");
+const basketContainer = document.querySelector(".clear-button");
 
 
 
