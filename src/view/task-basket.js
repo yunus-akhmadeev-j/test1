@@ -3,13 +3,13 @@ import {createElement} from '../framework/render.js';
 
 function createTaskBasketTemplate() {
     return (
-        `
+        `<div class="clear-button">
             <button class="button-clear">
                 <a href="#">
                     <p class="clear-button-text">Очистить</p>
                 </a>
             </button>
-        `
+        </div> `
       );
 }
 
