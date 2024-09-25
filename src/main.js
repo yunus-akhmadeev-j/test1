@@ -12,7 +12,7 @@ const formContainer = document.querySelector(".newtask-add-button");
 const basketContainer = document.querySelector(".task-basket");
 const taskcolumnContainer = document.querySelector(".tasks")
 
-const taskBoardContainer = document.querySelector(".task-body");
+
 
 render(new HeaderComponent(), bodyContainer, RenderPosition.AFTERBEGIN);
 render(new FormAddTaskComponent(), formContainer);

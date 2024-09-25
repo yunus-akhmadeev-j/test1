@@ -1,6 +1,6 @@
 const Status = {
     BACKLOG: `backlog`,
-    PROCESSING: `processing`,
+    PROCESSING: `in-process`,
     DONE: `done`,
     BASKET: `basket`,
   };
