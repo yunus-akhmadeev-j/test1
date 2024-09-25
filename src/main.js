@@ -9,14 +9,16 @@ import TaskBasket from "./view/task-basket.js";
 
 const bodyContainer = document.querySelector("body");
 const formContainer = document.querySelector(".newtask-add-button");
+const taskcolumnContainer = document.querySelector(".tasks");
 const basketContainer = document.querySelector(".task-basket");
-const taskcolumnContainer = document.querySelector(".tasks")
+
 
 
 
 render(new HeaderComponent(), bodyContainer, RenderPosition.AFTERBEGIN);
 render(new FormAddTaskComponent(), formContainer);
-render(new TaskBasket(), basketContainer, RenderPosition.AFTERBEGIN );
-render(new TaskColumnComponent(), taskcolumnContainer, RenderPosition.AFTERBEGIN);
+render(new TaskColumnComponent(), taskcolumnContainer);
+render(new TaskBasket(), basketContainer);
+
 
 
