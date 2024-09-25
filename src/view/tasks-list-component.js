@@ -1,7 +1,7 @@
 import { createElement } from "../framework/render.js";
 
 function createTaskColumnComponentTemplate() {
-  return ` 
+  return( ` 
   <div class="task-body">
   <ul class="task-list"><h3>Backlog</h3>
       <li class="task1">Выучить JS</li>
@@ -27,7 +27,7 @@ function createTaskColumnComponentTemplate() {
       <li class="task1">Прочитать Войну и Мир</li>
       
   </ul>
-</div>`;
+</div>`;)
 }
 
 export default class TaskColumnComponent {
