@@ -27,7 +27,7 @@ function createTaskColumnComponentTemplate() {
       <li class="task1">Прочитать Войну и Мир</li>
       
   </ul>
-</div>`;)
+</div>`);
 }
 
 export default class TaskColumnComponent {
